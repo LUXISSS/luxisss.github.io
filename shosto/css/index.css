@@ -1,0 +1,23 @@
+h1
+{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: center;
+    position: relative;
+    padding: 4rem 0 0;
+}
+
+h1:after
+{
+    margin-top: 5px;
+    content: ' ';
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+p
+{
+    font-size: 30px;
+    text-align: center;
+}
