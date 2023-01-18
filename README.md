@@ -1,2 +1,2 @@
-# luxisss.io.github
+# luxisss.github.io
 A page
