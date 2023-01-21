@@ -1,7 +1,11 @@
+.header {
+    background-color: #5f3525;
+}
+
 h1 {
     font-size: 40px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-align: center;
     position: relative;
     padding: 0rem 0 0;
@@ -11,10 +15,39 @@ h1:after {
     margin-top: 5px;
     content: ' ';
     display: block;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #ebecda;
 }
 
 p {
     font-size: 30px;
     text-align: center;
+}
+
+.credit {
+    font-size: 12.5px;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    color: rgba(235, 236, 218, 0.35);
+}
+
+.body {
+    background-color: #241a18;
+    color: #ebecda;
+}
+
+.links {
+    margin: 0.5rem .25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.links:link {
+    color: #ebecda;
+    text-decoration: none;
+}
+
+.links:visited {
+    color: #ebecda;
+    text-decoration: none;
 }
