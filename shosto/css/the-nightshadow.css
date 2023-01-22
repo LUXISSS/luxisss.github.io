@@ -28,7 +28,7 @@ p {
 .credit {
     font-size: 12.5px;
     font-style: italic;
-    position: absolute;
+    position: relative;
     bottom: 0;
     color: rgba(235, 236, 218, 0.35);
 }
